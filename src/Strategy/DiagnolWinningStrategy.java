@@ -43,6 +43,24 @@ public class DiagnolWinningStrategy implements WinningStrategy{
 
         return false;
 
+
+    }
+
+    @Override
+    public void handleBoard(Board board, Move lastMove) {
+        Character symbol = lastMove.getPlayer().getSymbol();
+        int row = lastMove.getCell().getRow();
+
+        int col = lastMove.getCell().getCol();
+
+
+        if(row == col){
+            leftDiaMpa.put(symbol,leftDiaMpa.get(symbol)-1);
+        }
+
+        if(row+col == board.getDimension()-1){
+            rightDiaMpa.put(symbol,rightDiaMpa.get(symbol)-1);
+        }
     }
 
 }

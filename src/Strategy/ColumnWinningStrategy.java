@@ -31,4 +31,14 @@ public class ColumnWinningStrategy implements WinningStrategy{
         return false;
     }
 
+    @Override
+    public void handleBoard(Board board, Move lastMove) {
+        Character symbol = lastMove.getPlayer().getSymbol();
+        int col = lastMove.getCell().getCol();
+
+        Map<Character, Integer> colMap = columnMaps.get(col);
+        colMap.put(symbol,colMap.get(symbol)-1);
+
+    }
+
 }

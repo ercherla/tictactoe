@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c3566200-34ec-402d-9ffa-19c0bc4bebfb" name="Changes" comment="git add.&#10;git commit -m &quot;Uploading&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/ColumnWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/ColumnWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/DiagnolWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/DiagnolWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/RowWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/WinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
